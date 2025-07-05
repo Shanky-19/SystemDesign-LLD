@@ -87,6 +87,10 @@ class ElectricCar extends Car {  // Inherits from Car
         batteryLevel = 100;
         System.out.println(brand + " " + model + " : Battery fully charged!");
     }
+
+    public void getBetteryLevel() {
+        System.out.println(brand + " " + model + " : Battery at " + batteryLevel + "%");
+    }
 }
 
 // Main Class
@@ -107,5 +111,6 @@ public class Inheritance {
         myElectricCar.accelerate();
         myElectricCar.brake();
         myElectricCar.stopEngine();
+        myElectricCar.getBetteryLevel();
     }
 }
