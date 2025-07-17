@@ -1,3 +1,6 @@
+
+package Lecture7.BadDesign;
+
 import java.util.*;
 import java.io.*;
 
